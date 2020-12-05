@@ -33,7 +33,7 @@ public class TestCase02{
 
         System.out.println(driver.findElement(By.id("result-stats")).getText());
 
-        WebElement alisverisLinki=driver.findElement(By.xpath("//a[@class='hide-focus-ring']"));
+        WebElement alisverisLinki=driver.findElement(By.linkText("Alışveriş"));
         alisverisLinki.click();
 
         driver.close();
